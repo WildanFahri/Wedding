@@ -63,7 +63,7 @@
                         <li><a class="nav-link" href="#gallery">Gallery</a></li> --}}
 						<li><a class="nav-link" href="#wedding">Acara</a></li>
                         {{-- <li><a class="nav-link" href="#events">Events</a></li> --}}
-						<li><a class="nav-link" href="#maps">Maps</a></li>
+						<li><a class="nav-link" href="#maps">Lokasi</a></li>
                     </ul>
                     <div>
                         <audio controls autoplay loop>
@@ -85,9 +85,11 @@
 			<li><img src="images/slider-03.jpg" alt=""></li>
 		</ul>
 		<div class="lbox-details">
+            <br><br><br>
+            <br><br><br>
 			<h2>بسم الله الرحمن الرحيم</h2>
 			<h1>Ita & Fuad</h1>
-			<div class="countdown main-time clearfix">
+			{{-- <div class="countdown main-time clearfix">
 				<div id="timer">
 					<h3> 20 Februari 2022</h3>
 					<div id="days"></div>
@@ -95,7 +97,7 @@
 					<div id="minutes"></div>
 					<div id="seconds"></div>
 				</div>
-			</div>
+			</div> --}}
 		</div>
 	</div>
 	<!-- End Banner -->
@@ -434,6 +436,30 @@
 				</div>
 			</div>
 
+            <div class="title-box">
+                <h2>السلام عليكم ورحمة الله وبركاته</h2>
+                <h3>
+                    Maha suci Allah yang telah menciptakan makhluk-Nya berpasang-pasangan.<br>
+                    Ya Allah, perkenankanlah kami merangkaikan kasih sayang yang Kau ciptakan diantara kami
+                </h3>
+                <div class="title-box">
+                    <h2>Dewi Masithah & Muhammad Fuad Arifudin</h2>
+                </div>
+                <h3>
+                    Dengan memohon Ridho serta Rahmat Allah SWT, kami bermaksud menyelenggarakan acara pernikahan anak kami<br>
+                    Yang insya Allah akan diselenggarakan pada :
+                </h3>
+                <div class="countdown main-time clearfix">
+				<div id="timer">
+					<h3> 20 Februari 2022</h3>
+					<div id="days"></div>
+					<div id="hours"></div>
+					<div id="minutes"></div>
+					<div id="seconds"></div>
+				</div>
+			</div>
+            </div>
+
 			{{-- <div class="row">
                 <div class="col-md-4 col-sm-6">
                     <div class="serviceBox">
@@ -527,7 +553,7 @@
 			<div class="row">
 				<div class="col-lg-12">
 					<div class="title-box">
-						<h2>Location</h2>
+						<h2>Lokasi</h2>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
                         <div class="uni-home-map">
                             <div class="uni-about-map">
@@ -619,7 +645,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12">
-					<p class="footer-company-name">All Rights Reserved. &copy; 2021 <a href="https://github.com/WildanFahri">Wildan Fahri</a> Design By : <a href="https://html.design/">html design</a></p>
+					<p class="footer-company-name">All Rights Reserved. &copy; 2022 <a href="https://www.instagram.com/el_fahri27">el_fahri</a> Design By : <a href="https://github.com/WildanFahri">Wildan Fahri</a></p>
 				</div>
 			</div>
 		</div>

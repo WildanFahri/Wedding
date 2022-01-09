@@ -456,7 +456,8 @@ button:focus{
 }
 
 .countdown{
-	background: url(../images/ptn-bg.jpg);
+	/* background: url(../images/ptn-bg.jpg); */
+    background: #ffffff;
 	background-size: cover;
 	width: 100%;
 	height: 100%;
