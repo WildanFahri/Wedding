@@ -8,13 +8,13 @@
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
      <!-- Site Metas -->
-    <title>Sweetwedding - Responsive OnePage HTML5 Template</title>
+    <title>Undangan Pernikahan | Ita & Fuad</title>
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="author" content="">
 
     <!-- Site Icons -->
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="images/if.png" type="image/x-icon">
     <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
 
     <!-- Bootstrap CSS -->
@@ -39,7 +39,7 @@
 	<!-- LOADER -->
     <div id="preloader">
 		<div class="preloader pulse">
-			<h3>Huda & Lala</h3>
+			<h3>Ita & Fuad</h3>
 		</div>
     </div><!-- end loader -->
     <!-- END LOADER -->
@@ -48,7 +48,7 @@
 	<header class="top-header">
 		<nav class="navbar header-nav navbar-expand-lg">
             <div class="container">
-				<a class="navbar-brand" href="/"><img src="images/logo.png" alt="image"></a>
+				<a class="navbar-brand" href="/"><img src="images/logo2.png" alt="image"></a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-wd" aria-controls="navbar-wd" aria-expanded="false" aria-label="Toggle navigation">
 					<span></span>
 					<span></span>
@@ -56,15 +56,21 @@
 				</button>
                 <div class="collapse navbar-collapse justify-content-end" id="navbar-wd">
                     <ul class="navbar-nav">
-                        <li><a class="nav-link active" href="#home">Home</a></li>
-                        <li><a class="nav-link" href="#about">About Us</a></li>
-                        <li><a class="nav-link" href="#story">Story</a></li>
-                        <li><a class="nav-link" href="#family">Family</a></li>
-                        <li><a class="nav-link" href="#gallery">Gallery</a></li>
-						<li><a class="nav-link" href="#wedding">Wedding</a></li>
-                        <li><a class="nav-link" href="#events">Events</a></li>
+                        <li><a class="nav-link active" href="/">Home</a></li>
+                        <li><a class="nav-link" href="#about">Tentang</a></li>
+                        <li><a class="nav-link" href="#story">Cerita</a></li>
+                        {{-- <li><a class="nav-link" href="#family">Family</a></li>
+                        <li><a class="nav-link" href="#gallery">Gallery</a></li> --}}
+						<li><a class="nav-link" href="#wedding">Acara</a></li>
+                        {{-- <li><a class="nav-link" href="#events">Events</a></li> --}}
 						<li><a class="nav-link" href="#maps">Maps</a></li>
                     </ul>
+                    <div>
+                        <audio controls autoplay loop>
+                            <source src="images/backsound.mp3" type="audio/mpeg">
+                        </audio>
+                        {{-- <embed src="images/backsound.mp3" loop="true" autostart="true" width="2" height="0"> --}}
+                    </div>
                 </div>
             </div>
         </nav>
@@ -79,11 +85,11 @@
 			<li><img src="images/slider-03.jpg" alt=""></li>
 		</ul>
 		<div class="lbox-details">
-			<h1>Huda & lala</h1>
-			<h2>We're getting married</h3>
+			<h2>بسم الله الرحمن الرحيم</h2>
+			<h1>Ita & Fuad</h1>
 			<div class="countdown main-time clearfix">
 				<div id="timer">
-					<h3> 27 November 2021</h3>
+					<h3> 20 Februari 2022</h3>
 					<div id="days"></div>
 					<div id="hours"></div>
 					<div id="minutes"></div>
@@ -101,7 +107,7 @@
 				<div class="row">
 					<div class="col-lg-12 text-center">
 						<div class="title-box">
-							<h2>Lailatul Fadhilah <span>&</span> Huda Arrachman Putra</h2>
+							<h2>Dewi Masithah <span>&</span> Muhammad Fuad Arifudin</h2>
 						</div>
 					</div>
 				</div>
@@ -113,16 +119,16 @@
 									<div class="about-img">
 										<img class="img-fluid" src="images/about-img-01.jpg" alt="" />
 									</div>
-									<ul>
+									{{-- <ul>
 										<li><a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a></li>
 										<li><a href="https://twitter.com/"><i class="fa fa-twitter"></i></a></li>
 										<li><a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a></li>
-									</ul>
+									</ul> --}}
 								</div>
 							</div>
-							<div class="col-lg-8 col-md-6 col-sm-12">
-								<h2> <i class="fa fa-heart-o" aria-hidden="true"></i> <span>Lailatul Fadhilah</span> <i class="fa fa-heart-o" aria-hidden="true"></i></h2>
-								<p>Fusce convallis ante id purus sagittis malesuada. Sed erat ipsum, suscipit sit amet auctor quis, vehicula ut leo. Maecenas felis nulla, tincidunt ac blandit a, consectetur quis elit. Nulla ut magna eu purus cursus sagittis. Praesent fermentum tincidunt varius. Proin sit amet tempus magna. Fusce pellentesque vulputate urna. </p>
+							<div class="col-lg-8 col-md-6 col-sm-12" style="color: #881228">
+								<h2> <i class="fa fa-heart-o" style="color: #881228" aria-hidden="true"></i> <span>Dewi Masithah, S.Pd</span> <i class="fa fa-heart-o" style="color: #881228" aria-hidden="true"></i></h2>
+								<p>Putri dari Bapak Mufti Zaudin dan Ibu Mariatul Qibtiyah (Malang)</p>
 							</div>
 						</div>
 						<div class="row align-items-center about-main-info">
@@ -131,16 +137,16 @@
 									<div class="about-img">
 										<img class="img-fluid" src="images/about-img-02.jpg" alt="" />
 									</div>
-									<ul>
+									{{-- <ul>
 										<li><a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a></li>
 										<li><a href="https://twitter.com/"><i class="fa fa-twitter"></i></a></li>
 										<li><a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a></li>
-									</ul>
+									</ul> --}}
 								</div>
 							</div>
-							<div class="col-lg-8 col-md-6 col-sm-12">
-								<h2> <i class="fa fa-heart-o" aria-hidden="true"></i> <span>Huda Arrachman Putra </span> <i class="fa fa-heart-o" aria-hidden="true"></i></h2>
-								<p>Fusce convallis ante id purus sagittis malesuada. Sed erat ipsum, suscipit sit amet auctor quis, vehicula ut leo. Maecenas felis nulla, tincidunt ac blandit a, consectetur quis elit. Nulla ut magna eu purus cursus sagittis. Praesent fermentum tincidunt varius. Proin sit amet tempus magna. Fusce pellentesque vulputate urna. </p>
+							<div class="col-lg-8 col-md-6 col-sm-12" style="color: #881228">
+								<h2> <i class="fa fa-heart-o" style="color: #881228" aria-hidden="true"></i> <span>Muhammad Fuad Arifudin, S.Pd </span> <i class="fa fa-heart-o" style="color: #881228" aria-hidden="true"></i></h2>
+								<p>Putra dari Bapak Madsudi dan Ibu Suhernik (Batu)</p>
 							</div>
 						</div>
 					</div>
@@ -156,8 +162,8 @@
 			<div class="row">
 				<div class="col-lg-12">
 					<div class="title-box">
-						<h2>Our Story</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+						<h2>Cerita Kami</h2>
+						{{-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p> --}}
 					</div>
 				</div>
 			</div>
@@ -207,13 +213,13 @@
 							<div class="caption">
 								<div class="star center-block">
 									<span class="h3">03</span>
-									<span>May</span>
-									<span>2017</span>
+									<span>Nov</span>
+									<span>2021</span>
 								</div>
 								<div class="image">
 									<img src="images/time-03.jpg" alt="" />
 									<div class="title">
-										<h2>Proposal <i class="fa fa-angle-right" aria-hidden="true"></i></h2>
+										<h2>Engagement <i class="fa fa-angle-right" aria-hidden="true"></i></h2>
 									</div>
 								</div>
 								<div class="textContent">
@@ -224,14 +230,14 @@
 						<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 item">
 							<div class="caption">
 								<div class="star center-block">
-									<span class="h3">04</span>
-									<span>June</span>
-									<span>2017</span>
+									<span class="h3">20</span>
+									<span>Feb</span>
+									<span>2022</span>
 								</div>
 								<div class="image">
-									<img src="images/time-04.jpg" alt="" />
+									<img src="images/time-04.png" alt="" />
 									<div class="title">
-										<h2>Engagement <i class="fa fa-angle-right" aria-hidden="true"></i></h2>
+										<h2>My Wedding <i class="fa fa-angle-right" aria-hidden="true"></i></h2>
 									</div>
 								</div>
 								<div class="textContent">
@@ -239,7 +245,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 item">
+						{{-- <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 item">
 							<div class="caption">
 								<div class="star center-block">
 									<span class="h3">04</span>
@@ -256,7 +262,7 @@
 									<p class="lead">Since then i came to Austria as refugee far from my lovers and friends far a way escaping from wars and threats searching a new life that i didn't find until yet.</p>
 								</div>
 							</div>
-						</div>
+						</div> --}}
 
 				</div>
 			</div>
@@ -266,7 +272,7 @@
 	<!-- End Story -->
 
 	<!-- Start Family -->
-	<div id="family" class="family-box">
+	{{-- <div id="family" class="family-box">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12">
@@ -412,7 +418,7 @@
 				</ul>
 			</div>
 		</div>
-	</div>
+	</div> --}}
 	<!-- End Gallery -->
 
 	<!-- Start Wedding -->
@@ -422,13 +428,13 @@
 			<div class="row">
 				<div class="col-lg-12">
 					<div class="title-box">
-						<h2>Wedding</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+						<h2><span style="color: #63c7bd"> Acara </span></h2>
+						{{-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p> --}}
 					</div>
 				</div>
 			</div>
 
-			<div class="row">
+			{{-- <div class="row">
                 <div class="col-md-4 col-sm-6">
                     <div class="serviceBox">
                         <div class="service-icon"><i class="flaticon-bachelorette-party"></i></div>
@@ -461,7 +467,7 @@
                         </p>
                     </div>
                 </div>
-            </div>
+            </div> --}}
 
 		</div>
 	</div>
@@ -469,7 +475,7 @@
 	<!-- End Wedding -->
 
 	<!-- Start Events -->
-	<div id="events" class="events-box">
+	{{-- <div id="events" class="events-box">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12">
@@ -487,7 +493,7 @@
 						</div>
 						<h2>2 June 2018 Engagement</h2>
 						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard </p>
-						{{-- <a href="#">See location <i class="fa fa-angle-double-right" aria-hidden="true"></i></a> --}}
+						<a href="#">See location <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
 					</div>
 				</div>
 				<div class="col-lg-4 col-md-6 col-sm-12">
@@ -497,7 +503,7 @@
 						</div>
 						<h2>3 June 2018 Main Ceremony </h2>
 						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard </p>
-						{{-- <a href="#">See location <i class="fa fa-angle-double-right" aria-hidden="true"></i></a> --}}
+						<a href="#">See location <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
 					</div>
 				</div>
 				<div class="col-lg-4 col-md-6 col-sm-12">
@@ -507,16 +513,16 @@
 						</div>
 						<h2>4 June 2018 Wedding party </h2>
 						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard </p>
-						{{-- <a href="#">See location <i class="fa fa-angle-double-right" aria-hidden="true"></i></a> --}}
+						<a href="#">See location <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>
+	</div> --}}
 	<!-- End Events -->
 
     <!-- Start Contact -->
-	<div id="maps" class="map-box">
+	<div id="maps" class="events-box">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12">
@@ -525,7 +531,7 @@
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
                         <div class="uni-home-map">
                             <div class="uni-about-map">
-                                <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d587.3981437072722!2d112.60979584403451!3d-7.944275103576059!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e788272f1b3c9d5%3A0xb557dfb2d4e96b72!2sJl.%20Gajayana%20No.537%2C%20Dinoyo%2C%20Kec.%20Lowokwaru%2C%20Kota%20Malang%2C%20Jawa%20Timur%2065144!5e0!3m2!1sid!2sid!4v1637369912819!5m2!1sid!2sid"  height="700" style="border:0" ></iframe>
+                                <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d246.97365353607267!2d112.61008956755767!3d-7.939016765576322!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e78820dba67f73b%3A0x13c53e991e7d59e4!2sGedung%20Majelis%20Ta&#39;lim%20Muslimat%20NU!5e0!3m2!1sid!2sid!4v1641692042365!5m2!1sid!2sid"  height="700" style="border:0" ></iframe>
                                 {{-- https://www.google.com/maps/d/u/4/embed?mid=13TlrWxQ3LaSxQqXM_cI-tigs4-nPn64h --}}
                             </div>
                         </div>
