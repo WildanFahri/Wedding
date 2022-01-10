@@ -65,7 +65,7 @@
                         {{-- <li><a class="nav-link" href="#events">Events</a></li> --}}
 						<li><a class="nav-link" href="#maps">Lokasi</a></li>
                     </ul>
-                    <div>
+                    <div hidden="true">
                         <audio controls autoplay loop>
                             <source src="images/backsound.mp3" type="audio/mpeg">
                         </audio>
@@ -85,10 +85,19 @@
 			<li><img src="images/slider-03.jpg" alt=""></li>
 		</ul>
 		<div class="lbox-details">
-            <br><br><br>
-            <br><br><br>
 			<h2>بسم الله الرحمن الرحيم</h2>
 			<h1>Ita & Fuad</h1>
+			<div class="dalil">
+			<h3>
+				Dan diantara tanda-tanda kekuasann-Nya, ialah Dia menciptakan <br>
+				Untukmu pasangan-pasangan dari jenismu sendiri, supaya kamu cenderung dan merasa tentram <br>
+				kepadanya, dan dijadikan-Nya diantaramu rasa kasih dan sayang. <br>
+				Sesungguhnya pada yang demikian itu benar-benar terdapat tanda-tanda bagi kaum
+				yang berfikir
+				<br><br>
+				QS. Ar - Rum : 21
+			</h3>
+			</div>
 			{{-- <div class="countdown main-time clearfix">
 				<div id="timer">
 					<h3> 20 Februari 2022</h3>
@@ -109,7 +118,7 @@
 				<div class="row">
 					<div class="col-lg-12 text-center">
 						<div class="title-box">
-							<h2>Dewi Masithah <span>&</span> Muhammad Fuad Arifudin</h2>
+							<h2> <span> Dewi Masithah & Muhammad Fuad Arifudin </span></h2>
 						</div>
 					</div>
 				</div>
@@ -178,55 +187,55 @@
 						<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 item" >
 							<div class="caption">
 								<div class="star center-block">
-									<span class="h3">01</span>
-									<span>March </span>
-									<span>2017</span>
+									<span class="h3">20</span>
+									<span>Juni</span>
+									<span>2021</span>
 								</div>
 								<div class="image">
 									<img src="images/time-01.jpg" alt="" />
 									<div class="title">
-										<h2>First Meet <i class="fa fa-angle-right" aria-hidden="true"></i></h2>
+										<h2>Pertemuan Awal</h2>
 									</div>
 								</div>
-								<div class="textContent">
+								{{-- <div class="textContent">
 									<p class="lead">We met at the wedding of our close friends and immediately found a common language, so a year later our first date happened.</p>
-								</div>
+								</div> --}}
 							</div>
 						</div>
 						<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 item">
 							<div class="caption">
 								<div class="star center-block">
-									<span class="h3">03</span>
-									<span>April</span>
-									<span>2017</span>
-								</div>
-								<div class="image">
-									<img src="images/time-02.jpg" alt="" />
-									<div class="title">
-										<h2>First date <i class="fa fa-angle-right" aria-hidden="true"></i></h2>
-									</div>
-								</div>
-								<div class="textContent">
-									<p class="lead">We met at the wedding of our close friends and immediately found a common language, so a year later our first date happened.</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 item">
-							<div class="caption">
-								<div class="star center-block">
-									<span class="h3">03</span>
+									<span class="h3">21</span>
 									<span>Nov</span>
 									<span>2021</span>
 								</div>
 								<div class="image">
-									<img src="images/time-03.jpg" alt="" />
+									<img src="images/time-02.jpg" alt="" />
 									<div class="title">
-										<h2>Engagement <i class="fa fa-angle-right" aria-hidden="true"></i></h2>
+										<h2>Lamaran</h2>
 									</div>
 								</div>
-								<div class="textContent">
+								{{-- <div class="textContent">
 									<p class="lead">We met at the wedding of our close friends and immediately found a common language, so a year later our first date happened.</p>
+								</div> --}}
+							</div>
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 item">
+							<div class="caption">
+								<div class="star center-block">
+									<span class="h3">14</span>
+									<span>Feb</span>
+									<span>2022</span>
 								</div>
+								<div class="image">
+									<img src="images/time-03.jpg" alt="" />
+									<div class="title">
+										<h2>Akad Nikah</h2>
+									</div>
+								</div>
+								{{-- <div class="textContent">
+									<p class="lead">We met at the wedding of our close friends and immediately found a common language, so a year later our first date happened.</p>
+								</div> --}}
 							</div>
 						</div>
 						<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 item">
@@ -239,12 +248,12 @@
 								<div class="image">
 									<img src="images/time-04.png" alt="" />
 									<div class="title">
-										<h2>My Wedding <i class="fa fa-angle-right" aria-hidden="true"></i></h2>
+										<h2>Resepsi Pernikahan</h2>
 									</div>
 								</div>
-								<div class="textContent">
+								{{-- <div class="textContent">
 									<p class="lead">For 2 years of work as support engineer responsible about installing and maintenance SWIFT packages for banks. I gain a lot from it before i leave country.</p>
-								</div>
+								</div> --}}
 							</div>
 						</div>
 						{{-- <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 item">
@@ -437,7 +446,7 @@
 			</div>
 
             <div class="title-box">
-                <h2>السلام عليكم ورحمة الله وبركاته</h2>
+                <h2 style="color: #000000">السلام عليكم ورحمة الله وبركاته</h2>
                 <h3>
                     Maha suci Allah yang telah menciptakan makhluk-Nya berpasang-pasangan.<br>
                     Ya Allah, perkenankanlah kami merangkaikan kasih sayang yang Kau ciptakan diantara kami
@@ -446,7 +455,7 @@
                     <h2>Dewi Masithah & Muhammad Fuad Arifudin</h2>
                 </div>
                 <h3>
-                    Dengan memohon Ridho serta Rahmat Allah SWT, kami bermaksud menyelenggarakan acara pernikahan anak kami<br>
+                    Dengan memohon Ridho serta Rahmat Allah SWT, kami bermaksud menyelenggarakan acara pernikahan putra putri kami<br>
                     Yang insya Allah akan diselenggarakan pada :
                 </h3>
                 <div class="countdown main-time clearfix">
@@ -554,7 +563,7 @@
 				<div class="col-lg-12">
 					<div class="title-box">
 						<h2>Lokasi</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+						{{-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p> --}}
                         <div class="uni-home-map">
                             <div class="uni-about-map">
                                 <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d246.97365353607267!2d112.61008956755767!3d-7.939016765576322!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e78820dba67f73b%3A0x13c53e991e7d59e4!2sGedung%20Majelis%20Ta&#39;lim%20Muslimat%20NU!5e0!3m2!1sid!2sid!4v1641692042365!5m2!1sid!2sid"  height="700" style="border:0" ></iframe>
