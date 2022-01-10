@@ -65,12 +65,11 @@
                         {{-- <li><a class="nav-link" href="#events">Events</a></li> --}}
 						<li><a class="nav-link" href="#maps">Lokasi</a></li>
                     </ul>
-                    <div hidden="true">
+                    {{-- <div hidden="true">
                         <audio controls autoplay loop>
                             <source src="images/backsound.mp3" type="audio/mpeg">
                         </audio>
-                        {{-- <embed src="images/backsound.mp3" loop="true" autostart="true" width="2" height="0"> --}}
-                    </div>
+                    </div> --}}
                 </div>
             </div>
         </nav>
@@ -649,6 +648,31 @@
 	</div>
 	<!-- End Contact --> --}}
 
+    <div>
+        <div class="audio">
+            <img src="images/play.png" id="icon">
+        </div>
+    </div>
+
+    <audio id="mySong" loop="true">
+        <source src="images/backsound.mp3" type="audio/mpeg">
+    </audio>
+
+    <script>
+        var mySong = document.getElementById("mySong");
+        var icon = document.getElementById("icon");
+
+        icon.onclick = function(){
+            if(mySong.paused){
+                mySong.play();
+                icon.src = "images/pause.png";
+            }else{
+                mySong.pause();
+                icon.src = "images/play.png";
+            }
+        }
+    </script>
+
 	<!-- Start Footer -->
 	<footer class="footer-box">
 		<div class="container">
@@ -662,7 +686,7 @@
 	<!-- End Footer -->
 
 	<!-- ALL JS FILES -->
-	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery.min.js"></scrip>
 	<script src="js/popper.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
     <!-- ALL PLUGINS -->
