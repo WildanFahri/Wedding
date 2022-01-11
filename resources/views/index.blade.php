@@ -678,7 +678,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12">
-					<p class="footer-company-name">All Rights Reserved. &copy; 2022 <a href="https://www.instagram.com/el_fahri27">el_fahri</a> Design By : <a href="https://github.com/WildanFahri">Wildan Fahri</a></p>
+					<p class="footer-company-name">All Rights Reserved. &copy; 2022 <a href="https://www.instagram.com/el_fahri27">el_fahri</a> Design By : <a href="https://html.design/">html design</a></p>
 				</div>
 			</div>
 		</div>
